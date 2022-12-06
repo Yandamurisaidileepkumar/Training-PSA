@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vertical oriented text</title>
+    <style>
+        .vertical-text {
+            writing-mode: vertical-lr;
+            text-orientation: upright;
+            background-color:red;
+        }
+ 
+        @supports(text-orientation:upright){
+            .vertical-text{
+                background-color: greenyellow;
+            }
+        }
+ 
+    </style>
+</head>
+ 
+<body>
+    <h1>CSS text-orientation property is supported by Google Chrome, Firefox, Opera and Safari</h1>
+    <span class="vertical-text">
+        Vertical Text using text-orientation
+    </span>
+ 
+</body>
+</html>
