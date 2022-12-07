@@ -3,6 +3,10 @@
 
 <head>
     <title> HTML tags</title>
+    <meta charset="utf-8"/>
+    <meta name="author" content="code"/>
+    <meta name="description" content="this webpage aims to provide complete beginners information of html funds"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>           
 </head>
 
 <body>
@@ -52,29 +56,49 @@
     <table>
         <thead>
             <tr>
-                <th>heading 1</th>
-                <th>heading 2</th>
-                <th>heading 3</th>
+                <th>heading 1</th><div></div> 
+                <th>heading 2</th> 
             </tr>
-        </thead>
+        </thead> <div></div>
+            
         <tbody>
-            <tr>
-                <td>data1</td>
-                <td>data2</td>
-                <td>data3</td>
-            </tr>
-            <tr>
-                <td>data4</td>
-                <td>data5</td>
-                <td>data6</td> 
-            </tr>
-            <tr>
-                <td>data7</td>
-                <td>data8</td>
-                <td>data9</td>
-            </tr>
+    
         </tbody>
     </table>
+    <form >
+        <label for="username">user name</label><br/> 
+        <input type="text" id="username"/><br/><br/>
+        
+        <label for="about you">about you</label><br/>
+        <textarea id="about you"></textarea><br/><br/>
 
+        <label for="country">Country</label>
+        
+            <select id="country"> 
+            <option value="select">-- selecet one--</option>
+            <option value="india">India</option>
+            <option value="veitnam">veitnam</option>
+            <option value="america">america</option>
+
+        </select><br/><br>
+
+        <label>job Type</label><br>
+        <input type="radio" name="job Type" value="part time" id="part time"/>
+        <label for="part time">part time</label>
+        <br/>
+        <input type="radio" name="job Type" value="full time" id="full time"/>
+        <label for="full time">full time</label>
+        <br/><br/>
+
+        <label>job Type</label><br>
+        <input type="checkbox" name="job Typecb" value="part time" id="part timecb"/>
+        <label for="part timecb">part time</label>
+        <br/>
+        <input type="checkbox" name="job Typecb" value="full time" id="full timecb"/>
+        <label for="full timecb">full time</label>
+        <br/><br/>
+
+        <button>submit</button>
+    </form>
 </body>
 </html> 
