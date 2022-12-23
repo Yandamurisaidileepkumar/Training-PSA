@@ -1,5 +1,6 @@
-i=5;
-while (i<=15) {
-    console.log(i);
-    i++;   
+
+var ename = "Dileep";
+for (bala of ename) {
+    console.log(bala)
 }
+ 
