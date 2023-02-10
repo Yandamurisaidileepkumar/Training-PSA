@@ -63,13 +63,13 @@ console.log(typeof(person.firstname))*/
 //  }
 //  c=add(10,15)
 //  console.log(c)
-function outer(){
-    let counter=0
-    function inner(){
-        counter++
-        console.log(counter)
-    }
-    inner()
-}
-outer()
-outer()
+// function outer(){
+//     let counter=0
+//     function inner(){
+//         counter++
+//         console.log(counter)
+//     }
+//     inner()
+// }
+// outer()
+// outer()
