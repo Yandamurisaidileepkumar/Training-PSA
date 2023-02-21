@@ -1,7 +1,7 @@
-var a=15
-if(a%3==0){
-    console.log("multiple by 3")
+var a = 35453
+if (a % 10 == 4) {
+    console.log("number is positive")
 }
-else{
-    console.log("not multiple of 3")
-}
+else {
+    console.log("number is negative")
+}   
