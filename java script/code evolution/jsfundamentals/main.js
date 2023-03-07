@@ -196,3 +196,40 @@
 //   console.log("Itterative " + i);
 //   i++;
 // } while (i <= 5);
+
+// for of loop
+
+// var ids = [101, 102, 103, 104];
+// for (id of ids) {
+//   console.log(id);
+// }
+
+// functions
+
+// function greet() {
+//   console.log("good morning dileep");
+// }
+// greet();
+// function greet(name) {
+//   console.log("good morning " + name);
+// }
+// greet("Prem");
+// greet("kumar");
+// greet("yandamuri");
+
+// function with return type
+
+// function add(a, b) {
+//   return a + b;
+// }
+// var sum = add(10, 20);
+// console.log(sum);
+
+// let add = (a, b) => {
+//   console.log(a + b);
+// };
+// add(10,20);
+
+let add = (a, b) => a + b;
+var sum = add(10, 20);
+console.log(sum);
