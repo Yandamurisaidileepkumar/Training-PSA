@@ -230,6 +230,40 @@
 // };
 // add(10,20);
 
-let add = (a, b) => a + b;
-var sum = add(10, 20);
-console.log(sum);
+// let add = (a, b) => a + b;
+// var sum = add(10, 20);
+// console.log(sum);
+// var addfive = (num) => num + 5;
+// var sum = addfive(10);
+// console.log(sum);
+
+// // Block scope
+// if (true) {
+//   var myname = "dileep";
+// }
+// console.log(myname);
+
+// // functional scope
+
+// function testFn() {
+//   const myname = "king";
+// }
+// console.log(myname);
+// testFn();
+
+// global scope
+const num = 10;
+if (true) {
+  const num = 200;
+  var myname = "dileep";
+  console.log(myname);
+  console.log(num);
+}
+
+function testFn() {
+  const num = 100;
+  const myname = "king";
+  console.log(myname);
+  console.log(num);
+}
+testFn();
