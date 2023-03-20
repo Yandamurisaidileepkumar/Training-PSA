@@ -84,3 +84,30 @@
 //   console.log(`my name is ${this.name}`);
 // }
 // saymyname();
+
+// without the prototype
+// function person(fname, lname) {
+//   this.fname = fname;
+//   this.lname = lname;
+// }
+// const p1 = new person("dileep", "kumar");
+// const p2 = new person("prem", "kumar");
+// p1.getfullname = function () {
+//   return this.fname + " " + this.lname;
+// };
+// console.log(p1.getfullname());
+// console.log(p2.getfullname());
+
+// with prototype
+
+// function person(fname, lname) {
+//   this.fname = fname;
+//   this.lname = lname;
+// }
+// const p1 = new person("dileep", "kumar");
+// const p2 = new person("prem", "kumar");
+// person.prototype.getfullname = function () {
+//   return this.fname + " " + this.lname;
+// };
+// console.log(p1.getfullname());
+// console.log(p2.getfullname());
