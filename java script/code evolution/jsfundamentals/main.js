@@ -237,11 +237,11 @@
 // var sum = addfive(10);
 // console.log(sum);
 
-// // Block scope
+// Block scope
+// let name = "dileep";
 // if (true) {
-//   var myname = "dileep";
+//   console.log(myname);
 // }
-// console.log(myname);
 
 // // functional scope
 
@@ -251,19 +251,19 @@
 // console.log(myname);
 // testFn();
 
-// global scope
-const num = 10;
-if (true) {
-  const num = 200;
-  var myname = "dileep";
-  console.log(myname);
-  console.log(num);
-}
+// // global scope
+// const num = 10;
+// if (true) {
+//   const num = 200;
+//   var myname = "dileep";
+//   console.log(myname);
+//   console.log(num);
+// }
 
-function testFn() {
-  const num = 100;
-  const myname = "king";
-  console.log(myname);
-  console.log(num);
-}
-testFn();
+// function testFn() {
+//   const num = 100;
+//   const myname = "king";
+//   console.log(myname);
+//   console.log(num);
+// }
+// testFn();

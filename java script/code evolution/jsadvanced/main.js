@@ -7,10 +7,10 @@
 //     let c = 50;
 //     console.log(a, b, c);
 //   }
-//   inner();
+//   return inner;
 // }
-// outer();
-
+// const fn = outer();
+// fn();
 // closures
 
 // function outer() {
@@ -19,6 +19,8 @@
 //     counter++;
 //     console.log(counter);
 //   }
+//   inner();
+//   inner();
 //   inner();
 //   inner();
 // }
@@ -33,7 +35,6 @@
 //   return inner;
 // }
 // const fn = outer();
-// fn();
 // fn();
 
 // this keyword
